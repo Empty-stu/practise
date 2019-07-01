@@ -1,0 +1,104 @@
+header{
+    margin-left: 63px;
+    padding: 4px;
+    font-family: sans-serif;
+}
+header p{
+    display: inline;
+    margin-left: 10%;
+    padding: 3px;
+    font-weight: bold;
+}
+#user_list{
+    pading-left: 15px;
+    margin-left: 15px;
+    padding-right: 15px;
+    display: block;
+}
+.chart-button{
+    margin-left: 15px;
+    margin-top: 3px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+user{
+    height: 50px;
+    padding-top: 41px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    text-align: justify;
+    font-family: sans-serif;
+}
+param{
+    display: inline-block;
+    margin-left:  10%;
+}
+name{
+    display: inline-block;
+    margin-left:  10%;
+    text-transform: capitalize;
+}
+sename{
+    display: inline-block;
+    margin-left:  10%;
+    text-transform: capitalize;
+}
+avatar{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+    margin-left: 10px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+big_avatar{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ /*   display: inline-block;*/
+    height: 128px;
+    width: 128px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+plus{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    margin-left: 5%;
+    background-image: url('plus.png');
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+#modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.8);
+}
+#modal_cont{
+    background-color: white;
+    margin-left: 15%;
+    margin-top: 50px;
+    /*padding: 10px;*/
+    width: 440px;
+}
+input[type="search"]::-ms-clear {
+    display: none;
+}
+input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+}
