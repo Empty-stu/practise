@@ -1,15 +1,24 @@
+html * {
+    font-family: 'Abel', sans-serif !important;
+}
 table{
     width: 96%;
 }
-table tr{
-    font-family: 'Open Sans';
+tr{
+
 }
-table td{
+td{
     text-align: left;
 }
-table th{
+th{
     text-align: left;
-     font-weight: bold;
+    font-family: 'Abel', sans-serif;
+}
+.short-info{
+
+}
+.full-info{
+
 }
 .chart-button{
     margin-left: 2%;
@@ -24,7 +33,7 @@ table th{
     border: 3px solid white;
     vertical-align: middle;
 }
-.big_avatar{
+.big-avatar{
     height: 128px;
     width: 128px;
     border-radius: 50%;

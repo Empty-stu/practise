@@ -5,8 +5,8 @@
     <title>Rest ip</title>
     <link rel = "stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="shortcut icon" href = "user.png">
+    <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
         google.charts.load('current', {'packages':['corechart']});
@@ -42,25 +42,25 @@
     </button>
     <div class="search-field">
         <input id="searchBox" type="text" placeholder="Search by name"  name="searchBox" maxlength="12" size="12">
-        <input type="submit" onclick="search()" title="Click to search" value="Search" >
     </div>
-<br>
-<br>
-<div style="margin-left: 2%">
-    <table id="user_list">
-        <tr>
-            <th> </th>
-            <th>Last</th>
-            <th>First</th>
-            <th>Username</th>
-            <th>Phone</th>
-            <th>Location</th>
-            <th> </th>
-        </tr>
-    </table>
-</div>
-<script src="eng.js"></script>
-<div id="modal" class="modal-stl" onclick="closeChart()">
+    <br>
+    <br>
+    <div style="margin-left: 2%">
+        <table id="user_list">
+            <tr>
+                <th> </th>
+                <th>Last</th>
+                <th>First</th>
+                <th>Username</th>
+                <th>Phone</th>
+                <th>Location</th>
+                <th> </th>
+            </tr>
+        </table>
+    </div>
+    <script src="eng.js"></script>
+    <script src="searchScript.js"></script>
+    <div id="modal" class="modal-stl" onclick="closeChart()">
     <div id="modal_cont" class="modal_cont-stl">
         <div id="piechart" ></div>
     </div>
