@@ -1,10 +1,10 @@
-<p align="center"><img src="https://i.imgur.com/7l4Z3Iq.png" width="400"></p>
+<p align="center"><img src="https://i.imgur.com/7l4Z3Iq.png" width="700"></p>
 
 
 ## Description
 
-Test task during Web Developer Internship
-Random users list, built with HTML/CSS/JS
+Test task during Web Developer Internship.
+App is a random users list fetched from third-party API, rendered with HTML/CSS/JS
 
 ## Features
 * Loads random users from API.
